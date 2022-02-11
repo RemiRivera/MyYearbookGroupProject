@@ -2,6 +2,7 @@ package com.example.myyearbook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 final TextView mTextView = (TextView) findViewById(R.id.textView);
                 mTextView.setText("Victini is a Fire/Psychic type Pokemon");
+
+                Intent i = new Intent(getApplicationContext(), NextActivity.class);
+                startActivity(i);
             }
         });
 
