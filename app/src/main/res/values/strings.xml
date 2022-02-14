@@ -5,4 +5,10 @@
     <string name="yearbook_name">Remi Rivera: My favorite Pokemon is Victini</string>
     <string name="press_me">Press Me</string>
     <string name="job_plans">To get a job after graduation, I need to expand my resume, learn more coding languages, finish personal projects, make connections with other people in my field, and decide what companies that I would like to apply to.</string>
+    <string name="muhammad">Muhammad</string>
+    <string name="remi">Remi</string>
+    <string name="alex">Alex</string>
+    <string name="who_s_yearbook_would_you_like_to_see">Who\'s yearbook would you like to see?</string>
+    <string name="hello">Hello!</string>
+    <string name="home">Home</string>
 </resources>

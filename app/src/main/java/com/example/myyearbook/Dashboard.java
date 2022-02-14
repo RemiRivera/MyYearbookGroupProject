@@ -8,27 +8,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
+public class Dashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dashboard);
 
-        Button btn = findViewById(R.id.btnChange);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btnR = findViewById(R.id.btnRemi);
+        btnR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView mTextView = findViewById(R.id.textView);
-                mTextView.setText("Victini is a Fire/Psychic type Pokemon");
 
-                Intent i = new Intent(getApplicationContext(), NextActivity.class);
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
             }
         });
-
-//Remi was here
-
     }
 }
