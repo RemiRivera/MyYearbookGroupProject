@@ -29,10 +29,9 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent(getApplicationContext(), MainActivityR.class); //change activity name
+                Intent i = new Intent(getApplicationContext(), MainActivityM.class); //change activity name
                 startActivity(i);
             }
-            // this is a test 
         });
 
         Button btnA = findViewById(R.id.btnAlex);
