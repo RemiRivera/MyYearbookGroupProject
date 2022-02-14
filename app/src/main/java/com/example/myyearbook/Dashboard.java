@@ -29,7 +29,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent(getApplicationContext(), MainActivityM.class); //change activity name
+                Intent i = new Intent(getApplicationContext(), MainActivityM.class); //done
                 startActivity(i);
             }
         });
