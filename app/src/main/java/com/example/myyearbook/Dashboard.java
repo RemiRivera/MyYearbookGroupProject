@@ -32,6 +32,7 @@ public class Dashboard extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), MainActivityR.class); //change activity name
                 startActivity(i);
             }
+            // this is a test 
         });
 
         Button btnA = findViewById(R.id.btnAlex);
