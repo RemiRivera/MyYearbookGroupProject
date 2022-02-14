@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyYearbook">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityR"
             android:exported="false" />
         <activity
             android:name=".NextActivity"

@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -20,7 +19,27 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), MainActivityR.class);
+                startActivity(i);
+            }
+        });
+
+        Button btnM = findViewById(R.id.btnMuhammad);
+        btnM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(), MainActivityR.class); //change activity name
+                startActivity(i);
+            }
+        });
+
+        Button btnA = findViewById(R.id.btnAlex);
+        btnA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(), MainActivityR.class); //change activity name
                 startActivity(i);
             }
         });
