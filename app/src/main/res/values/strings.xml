@@ -11,4 +11,11 @@
     <string name="who_s_yearbook_would_you_like_to_see">Who\'s yearbook would you like to see?</string>
     <string name="hello">Hello!</string>
     <string name="home">Home</string>
+    <string name="alex_isiofia_i_like_listening_to_music">Alex Isiofia: I like listening to music!</string>
+    <string name="todo1">TODO</string>
+    <string name="press">Press</string>
+    <string name="back">Home</string>
+    <string name="in_the_future_i_plan_on_becoming_a_software_engineer">In the future, I plan on becoming a software engineer.</string>
+    <string name="software_engineer">In the future, I would like to become a software engineer.</string>
+    <string name="home3">Home</string>
 </resources>
