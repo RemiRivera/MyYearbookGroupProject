@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivityA extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity);
+        setContentView(R.layout.activity_main_a);
 
-    Button btn = findViewById(R.id.button2);
+    Button btn = findViewById(R.id.btnPress3);
         btn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {

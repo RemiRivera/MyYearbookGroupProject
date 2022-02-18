@@ -12,7 +12,7 @@ public class NextActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_next);
+        setContentView(R.layout.activity_next_r);
 
         Button btnH = findViewById(R.id.btnHome);
         btnH.setOnClickListener(new View.OnClickListener() {
