@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".NextActivityM">
 
+
     <TextView
         android:id="@+id/textView7"
         android:layout_width="381dp"
         android:layout_height="162dp"
-        android:background="#DC6767"
+        android:background="#750E0E"
         android:text="@string/graduation_plans_m"
         android:textAlignment="center"
         android:textColor="#FBFAFA"
@@ -21,4 +22,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="486dp"
+        android:layout_marginBottom="197dp"
+        android:backgroundTint="#751F1F"
+        android:text="SHARE"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
