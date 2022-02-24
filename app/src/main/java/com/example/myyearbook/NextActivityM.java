@@ -15,6 +15,10 @@ public class NextActivityM extends AppCompatActivity {
         super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_next_m);
 
+    }
+}
+
+
         bt = (Button) findViewById(R.id.buttonShare);
 
         bt.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +43,7 @@ public class NextActivityM extends AppCompatActivity {
 
 
     
+
 
 
 
