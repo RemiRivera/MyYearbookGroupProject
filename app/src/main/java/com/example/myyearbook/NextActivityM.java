@@ -26,7 +26,7 @@ public class NextActivityM extends AppCompatActivity {
                 myIntent.setType("text/plain");
                 //This shared link sends the recipient to a webpage with all the information about Jiraiya
                 String body = "https://naruto.fandom.com/wiki/Jiraiya";
-                String sub = "All You Need to Know About Jiraiya"; //link can be shared through Gmail, messages, GoogleDrive, etc.
+                String sub = "All You Need to Know About Jiraiya";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT, sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT, body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
