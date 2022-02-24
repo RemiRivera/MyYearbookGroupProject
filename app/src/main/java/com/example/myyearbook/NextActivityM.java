@@ -8,22 +8,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class NextActivityM extends AppCompatActivity {
-    Button bt;
+
 
     @Override
     protected void onCreate(Bundle SavedInstanceState) {
         super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_next_m);
 
-    }
-}
-
-
-        bt = (Button) findViewById(R.id.buttonShare);
-
+        Button bt = (Button) findViewById(R.id.buttonShare);
         bt.setOnClickListener(new View.OnClickListener() {
 
-            public void onClick(View v) {
+            public void onClick(View view) {
 
 
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
@@ -37,7 +32,9 @@ public class NextActivityM extends AppCompatActivity {
             }
         });
     }
-}
+    }
+
+
 
 
 
