@@ -14,13 +14,5 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_r);
 
-        Button btnH = findViewById(R.id.btnHome);
-        btnH.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), Dashboard.class);
-                startActivity(i);
-            }
-        });
     }
 }
