@@ -23,7 +23,7 @@ public class MainActivityR extends AppCompatActivity {
                 final TextView mTextView = findViewById(R.id.textView);
                 mTextView.setText("Victini is a Fire/Psychic type Pokemon");
 
-                Intent i = new Intent(getApplicationContext(), NextActivity.class);
+                Intent i = new Intent(getApplicationContext(), NextActivityR.class);
                 startActivity(i);
             }
         });

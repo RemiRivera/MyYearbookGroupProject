@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "713542384493",
+    "project_id": "push-notifications-e33e0",
+    "storage_bucket": "push-notifications-e33e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713542384493:android:fc8b59afac9a5e55f73864",
+        "android_client_info": {
+          "package_name": "com.example.myyearbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713542384493-1dr6m1oktmnbcuunqdog10j09helflo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhJvBuPwW7q9Zd4G5UftRjEbFCooWjPVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713542384493-1dr6m1oktmnbcuunqdog10j09helflo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
