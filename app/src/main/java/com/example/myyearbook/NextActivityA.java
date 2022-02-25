@@ -15,5 +15,7 @@ public class NextActivityA extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_a);
 
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.loadUrl("https://www.google.com");
     }
 }
