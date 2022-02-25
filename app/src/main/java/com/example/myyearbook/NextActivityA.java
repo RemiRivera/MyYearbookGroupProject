@@ -17,5 +17,6 @@ public class NextActivityA extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.loadUrl("https://www.google.com");
+
     }
 }
